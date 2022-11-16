@@ -1,0 +1,31 @@
+.banner-thiago{
+    margin-top: 10px;
+    height: 400px;
+    background-image: url("../imgs/artista04.jpg");
+    position: relative;
+    border-radius: 5px;
+}
+
+.textothiago{
+    text-indent: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+.thiago{
+    margin-top: 20px;
+}
+
+.item-galeria03{
+    height: 700px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#thiago1{
+    background-image: url('../imgs/thiago/thiago01.jpg');
+}
+#thiago2{
+    background-image: url('../imgs/thiago/thiago02.jpg');
+}
+#thiago3{
+    background-image: url('../imgs/thiago/thiago03.jpg');
+}

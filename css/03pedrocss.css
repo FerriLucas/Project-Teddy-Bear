@@ -1,0 +1,31 @@
+.banner-pedro{
+    margin-top: 10px;
+    height: 400px;
+    background-image: url("../imgs/artista01.jpg");
+    position: relative;
+    border-radius: 5px;
+}
+
+.textopedro{
+    text-indent: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+.perto{
+    margin-top: 20px;
+}
+
+.item-galeria03{
+    height: 700px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#pedro1{
+    background-image: url('../imgs/pedro/pedro01.jpg');
+}
+#pedro2{
+    background-image: url('../imgs/pedro/pedro02.jpg');
+}
+#pedro3{
+    background-image: url('../imgs/pedro/pedro03.jpg');
+}

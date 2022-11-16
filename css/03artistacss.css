@@ -1,0 +1,42 @@
+.banner-artista{
+    margin-top: 10px;
+    height: 400px;
+    background-image: url("../imgs/banner03.jpg");
+    position: relative;
+    border-radius: 5px;
+}
+
+#galeria-container h1{
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+
+}
+#galeria-container h1, #galeria-container .col-md-6, #galeria-container .col-12{
+    margin-bottom: 50px;
+}
+.item-galeria{
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.aa{
+    cursor: pointer;
+    color: #25282E;
+}
+.aa:hover{
+    opacity: 1;
+    color: #559;
+}
+#art1{
+    background-image: url('../imgs/artista01.jpg');
+}
+#art2{
+    background-image: url('../imgs/artista02.jpg');
+}
+#art3{
+    background-image: url('../imgs/artista03.jpg');
+}
+#art4{
+    background-image: url('../imgs/artista04.jpg');
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+        crossorigin="anonymous">
+
+        <!-- ICON only -->
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="../css/01homecss.css">
+        <link rel="stylesheet" href="../css/04contatocss.css">
+
+        <link rel="shortcut icon" href="../imgs/ursoteddy.png">
+
+        <title> Teddy Bear Photography </title>
+    </head>
+    <body>
+        <!-- CABEÇALHO -->
+        <div class="container-fluid">
+            <header class="row" id="header">
+                <div id="logo-container">
+                    <img id="logo" src="../imgs/ursoteddy.png" alt="">
+                    <h1>Teddy Bear Photography</h1>
+                </div>
+                <p>Wildlife Photographer</p>
+            </header>
+            <div class="container linha"></div>
+            <nav class="container procor" id="navbar">
+                <div class="row justify-content-center">
+                    <a class="amenu" href="../index.html">Home</a>
+                    <a class="amenu" href="../html/02sobrehtml.html">Sobre</a>
+                    <a class="amenu" href="../html/03artistashtml.html">Artistas</a>
+                    <a class="amenu" href="../html/04contatohtml.html">Contato</a>
+                </div>
+            </nav>
+            <div class="container linha"></div>
+        </div>
+
+        <div class="container" id="banner-container">
+            <div class="banner-contato centraliza-imagem">
+                <div class="info">
+                    <h2>Desenvolvedor</h2>
+                    <p class="cor-secundaria">Code By: @LucasFerri</p>
+                    <a class="btn" href="https://www.instagram.com/" target="_blank">Detalhes</a>
+                </div>
+            </div>
+        </div>
+
+        <main class="container" id="galeria-container">
+            <div class="row col-12">
+                <h1>Fale conosco</h1>
+            </div>
+            <form class="px-5 justify-content-center">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="none" class="form-label">Nome e Sobrenome</label>
+                        <!-- NOME A -->
+                        <input type="text" class="form-control" name="nome" id="nome">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <!-- EMAIL B -->
+                        <input type="email" class="form-control" name="email" id="email">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="fone" class="form-label">Telefone</label>
+                        <!-- FONE C -->
+                        <input class="form-control" type="number" name="fone" id="fone">
+                    </div>
+                    <div class="col-md-8 mb-3">
+                        <label for="endereco" class="form-label">Endereço</label>
+                        <!-- ENDERECO D -->
+                        <input class="form-control" type="text" name="endereco" id="endereco">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="cep" class="form-label">CEP</label>
+                        <!-- CEP E -->
+                        <input class="form-control" type="number" name="cep" id="cep">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="cidade" class="form-label">Cidade</label>
+                        <!-- CIDADE F -->
+                        <input class="form-control" type="text" name="cidade" id="cidade">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="estado"class="form-label">Estado</label>
+                        <!-- ESTADO G -->
+                        <select class="form-select" name="estado" id="estado">
+                            <option value="UF" selected disabled>Selecione seu Estado</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="AC">Acre</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="RR">Roraima</option>
+                            <option value="PA">Pará</option>
+                            <option value="AP">Amapá</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="PI">Piauí</option>
+                            <option value="CE">Ceará</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="BA">Bahia</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="PR">Paraná</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="GO">Goiás</option>
+                            <option value="DF">Distrito Federal</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+                        <label for="msg" class="form-label">Mensagem</label>
+                        <!-- MSG H -->
+                        <textarea class="form-control" name="texto" id="msg" rows="3"></textarea>
+                    </div>
+
+                    <div class="col-md-4 bm-3">
+                        <button type="submit" id="botenviar" class="btn green">Enviar</button>
+                        <button type="submit" id="botcancelar" class="btn cancelar">Cancelar</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <div class="container linha" id="footerline"></div>
+        <footer class="container">
+            <p class="cor-secundaria">Nos encontre nas redes sociais</p>
+            <div class="row justify-content-center" id="redes-sociais">
+                <div class="col-1">
+                    <a href="https://www.facebook.com/login/" target="_blank"><i class="con2 bi bi-facebook"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="con2 bi bi-instagram"></i></a>
+
+                </div>
+                <div class="col-1">
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="con2 bi bi-whatsapp"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://goo.gl/maps/RbAgqVV6R34JPryy7" target="_blank"><i class="con2 bi bi-geo-alt con"></i></a>
+                </div>
+            </div>
+            <p class="cor-secundaria direitos">&copy; 2022 - Todos os direitos reservados @LucasFerri</p>
+        </footer>
+        <script src="./js/04contatojs.js"></script>
+    </body>
+</html>

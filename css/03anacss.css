@@ -1,0 +1,31 @@
+.banner-ana{
+    margin-top: 10px;
+    height: 400px;
+    background-image: url("../imgs/artista02.jpg");
+    position: relative;
+    border-radius: 5px;
+}
+
+.textoana{
+    text-indent: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+.ana{
+    margin-top: 20px;
+}
+
+.item-galeria03{
+    height: 700px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#ana1{
+    background-image: url('../imgs/ana/ana01.jpg');
+}
+#ana2{
+    background-image: url('../imgs/ana/ana02.jpg');
+}
+#ana3{
+    background-image: url('../imgs/ana/ana03.jpg');
+}

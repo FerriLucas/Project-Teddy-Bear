@@ -1,0 +1,31 @@
+.banner-joao{
+    margin-top: 10px;
+    height: 400px;
+    background-image: url("../imgs/artista03.jpg");
+    position: relative;
+    border-radius: 5px;
+}
+
+.textojoao{
+    text-indent: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+.perto{
+    margin-top: 20px;
+}
+
+.item-galeria03{
+    height: 700px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#joao1{
+    background-image: url('../imgs/joao/joao01.jpg');
+}
+#joao2{
+    background-image: url('../imgs/joao/joao02.jpg');
+}
+#joao3{
+    background-image: url('../imgs/joao/joao03.jpg');
+}

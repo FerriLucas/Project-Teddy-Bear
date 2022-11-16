@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #25282E;
+    /* background-color:rgb(40, 42, 54); */
+}
+a,i{
+    transition: .5s;
+    text-decoration: none;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+.cor-secundaria{
+    color: #555;
+}
+.centraliza-imagem{
+    background-position: center;
+    background-size: cover;
+}
+/* ^RESET GERAL^ */
+
+.btn{
+    text-decoration: none;
+    background-color: #25282E;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+/* ^BTN^*/
+#header{
+    text-align: center;
+    padding: 30px;
+}
+#header p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#logo-container{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 55px;
+    margin-right: 15px;
+}
+.procor{
+    width: 100%;
+    background: linear-gradient(72deg, #fff 1%, rgb(240,240,240) 50%, #fff 99%);
+}
+/* ^CABEÇALHO^ */
+
+.linha{
+    padding: 0 auto;
+    max-width: 90%;
+    border-top: 1px solid #ccc;
+}
+/* ^LINHA^ */
+
+#navbar{
+    margin: 0 auto;
+    padding: 12px;
+}
+#navbar a{
+    width: 100px;
+    color: #444;
+}
+#navbar a:hover{
+    color: #25282E;
+    transform: scale(1.1);
+}
+.amenu{
+    font-size:18px;
+}
+/* ^MENU^ */
+
+.banner-principal{
+    margin-top: 10px;
+    height: 400px;
+    /*
+    background-image: url("../imgs/banner.jpg");
+    */
+    position: relative;
+    border-radius: 5px;
+}
+.info{
+    background-color: #fff;
+    padding: 20px;
+    width: 20%;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 5px;
+}
+/* ^BANNER PRINCIPAL^ */
+
+#banner-container{
+    margin-top: 40px;
+}
+#galeria-container h1{
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+}
+#galeria-container h1, #galeria-container .col-md-6, #galeria-container .col-12{
+    margin-bottom: 50px;
+}
+.item-galeria{
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.aa{
+    cursor: pointer;
+    color: #25282E;
+}
+.aa:hover{
+    font-size: 30px;
+    opacity: 1;
+    color: #559;
+}
+#img1{
+    background-image: url('../imgs/photo01.jpg');
+}
+#img2{
+    background-image: url('../imgs/photo02.jpg');
+}
+#img3{
+    background-image: url('../imgs/photo03.jpg');
+}
+#img4{
+    background-image: url('../imgs/photo04.jpg');
+}
+#img5{
+    background-image: url('../imgs/photo05.jpg');
+}
+#img6{
+    background-image: url('../imgs/photo06.jpg');
+}
+#img7{
+    background-image: url('../imgs/photo07.jpg');
+}
+#img8{
+    background-image: url('../imgs/photo08.jpg');
+}
+#nomea{
+    justify-content: center;
+    height: 450px;
+}
+/* ^GALERIA^ */
+#footerline{
+    margin-top: 20px;
+}
+footer{
+    padding: 30px;
+}
+#redes-sociais{
+    text-align: center;
+    height: 90px;
+}
+footer p{
+    text-align: center;
+}
+.con2{
+    padding: 15px 0;
+    font-size: 40px;
+    color: #25282E;
+}
+.con2:hover{
+    font-size: 44px;
+    opacity: 0.9;
+}
+.direitos{
+    margin: 20px 0 5px 0;
+}
+/* ^RODAPÉ^ */
