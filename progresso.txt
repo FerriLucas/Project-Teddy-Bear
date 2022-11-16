@@ -2,5 +2,7 @@ Trabalho de conclusão da disciplina de Design do curso de Programador Web (Sena
 
 Atividade proposta: Criar um site conforme necessidade e expectativas do “cliente simulado”. 
 
-Foi criado um site onde expusemos fotos de ursos em seus habitats naturais, os respectivos fotógrafos, informações sobre a simulada empresa e um campo de formulário para contato. 
+Foi criado um site onde expusemos fotos de ursos em seus habitats naturais, os respectivos -
+fotógrafos, informações sobre a simulada empresa e um campo de formulário para contato. 
+
 Obs: as futuras alterações serão na limitação dos dados descritos no formulário, utilizando JS. 
